@@ -1,0 +1,13 @@
+* {
+  color: #00B000 !important;
+  background-color: #000000 !important;
+  font-family: "Courier New", Courier, monospace !important;
+}
+
+a {
+  color: #00ffcc !important;
+}
+
+a:hover {
+  color: #00ffff !important;
+}

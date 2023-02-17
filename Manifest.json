@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Green-on-Black with Typewriter Animation and Dot Matrix Sound",
+  "version": "1.0",
+  "description": "Renders everything green-on-black, animates text as typewriter effect, and makes the noise of a dot matrix printer while it does it.",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["content.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["activeTab", "tabs"]
+}
